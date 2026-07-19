@@ -280,6 +280,20 @@ def plot_scatter(data: pd.DataFrame, cluster_column: str, title: str):
 
 st.title("Analisis Clustering Cacat Produk pada Industri Manufaktur")
 
+st.subheader("Identitas Mahasiswa")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.write("**Nama:** Herlinda Stavia Yuliani")
+    st.write("**NIM:** E12.2024.01979")
+
+with col2:
+    st.write("**Kelas:** E12402")
+    st.write("**Mata Kuliah:** Project Kecerdasan Buatan")
+
+st.divider()
+
 st.write(
     "Aplikasi ini menyajikan hasil segmentasi data cacat manufaktur menggunakan "
     "K-Means dan Hierarchical Clustering. Pengelompokan dilakukan berdasarkan "
