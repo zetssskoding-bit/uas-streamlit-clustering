@@ -2,19 +2,36 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Analisis Clustering Cacat Produk",
-    page_icon="📊",
     layout="wide"
 )
 
-st.title("📊 Analisis Clustering Cacat Produk")
+st.title("Analisis Clustering Cacat Produk pada Industri Manufaktur")
+
 st.write(
-    "Aplikasi ini dibuat untuk menampilkan hasil clustering "
-    "cacat produk pada industri manufaktur."
+    "Aplikasi ini digunakan untuk menampilkan hasil analisis clustering "
+    "terhadap data cacat produk pada industri manufaktur."
 )
 
-st.success("Aplikasi Streamlit berhasil dijalankan.")
+st.divider()
 
 st.subheader("Identitas Mahasiswa")
-st.write("Nama: Isi nama mahasiswa")
-st.write("NIM: Isi NIM mahasiswa")
-st.write("Mata Kuliah: Isi nama mata kuliah")
+
+st.write("Nama : ytta")
+st.write("NIM : belum tau")
+st.write("Mata Kuliah : gatau")
+
+st.divider()
+
+st.subheader("Deskripsi Aplikasi")
+
+st.write(
+    "Analisis clustering digunakan untuk mengelompokkan data cacat produk "
+    "berdasarkan kemiripan karakteristik yang dimiliki. Hasil pengelompokan "
+    "diharapkan dapat membantu dalam mengidentifikasi pola cacat produk dan "
+    "menentukan tindakan perbaikan yang sesuai."
+)
+
+st.info(
+    "Dataset dan hasil analisis clustering akan ditambahkan setelah seluruh "
+    "bahan analisis tersedia."
+)
